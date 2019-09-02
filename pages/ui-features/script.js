@@ -56,7 +56,55 @@
         value: 70,
         min: 0,
         max: 100,
-        symbol: 'Kg',
+        symbol: ' ํc',
+        pointerOptions: {
+          toplength: 8,
+          bottomlength: -20,
+          bottomwidth: 6,
+          color: '#8e8e93'
+        },
+        gaugeWidthScale: 0.1,
+        counter: true,
+        relativeGaugeSize: true
+      });
+
+      var g5 = new JustGage({
+        id: 'g5',
+        value: 70,
+        min: 0,
+        max: 100,
+        symbol: '%',
+        pointerOptions: {
+          toplength: 8,
+          bottomlength: -20,
+          bottomwidth: 6,
+          color: '#8e8e93'
+        },
+        gaugeWidthScale: 0.1,
+        counter: true,
+        relativeGaugeSize: true
+      });
+      var g6 = new JustGage({
+        id: 'g6',
+        value: 70,
+        min: 0,
+        max: 100,
+        symbol: 'us/cm',
+        pointerOptions: {
+          toplength: 8,
+          bottomlength: -20,
+          bottomwidth: 6,
+          color: '#8e8e93'
+        },
+        gaugeWidthScale: 0.1,
+        counter: true,
+        relativeGaugeSize: true
+      });
+      var g7 = new JustGage({
+        id: 'g7',
+        value: 70,
+        min: 0,
+        max: 100,
         pointerOptions: {
           toplength: 8,
           bottomlength: -20,
