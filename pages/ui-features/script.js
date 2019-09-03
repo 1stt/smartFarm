@@ -73,7 +73,7 @@
         value: 70,
         min: 0,
         max: 100,
-        symbol: '%',
+        symbol: ' %',
         pointerOptions: {
           toplength: 8,
           bottomlength: -20,
@@ -86,15 +86,16 @@
       });
       var g6 = new JustGage({
         id: 'g6',
-        value: 70,
+        value: 698,
         min: 0,
-        max: 100,
-        symbol: 'us/cm',
+        max: 2000,
+        symbol: ' us/cm',
         pointerOptions: {
           toplength: 8,
           bottomlength: -20,
           bottomwidth: 6,
-          color: '#8e8e93'
+          color: '#8e8e93',
+          stroke: '#ffffff',
         },
         gaugeWidthScale: 0.1,
         counter: true,
@@ -102,14 +103,15 @@
       });
       var g7 = new JustGage({
         id: 'g7',
-        value: 70,
+        value: 6.8,
         min: 0,
-        max: 100,
+        max: 14,
         pointerOptions: {
           toplength: 8,
           bottomlength: -20,
           bottomwidth: 6,
-          color: '#8e8e93'
+          color: '#8e8e93',
+          stroke: '#ffffff',
         },
         gaugeWidthScale: 0.1,
         counter: true,
