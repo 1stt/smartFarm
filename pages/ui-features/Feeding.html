@@ -13,6 +13,12 @@
   <!-- endinject -->
   <!-- inject:css -->
   <link rel="stylesheet" href="../../css/style.css">
+  <!-- inject time pick -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="timePickUI.css">
+  <!-- end inject time pick -->
   <!-- endinject -->
   <link rel="shortcut icon" href="../../images/favicon.png" />
 </head>
@@ -273,8 +279,16 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Timer</h4>
-                  <input type="number">
-                  
+                  <div class="col-xs-4">
+                    <div class="form-group">
+                      <div class="input-group timepicker">
+                        <input type="time" class="form-control" >
+                        <span class="input-group-addon">
+                          <span class="fa fa-clock-o"></span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -312,6 +326,12 @@
   <!-- endinject -->
   <!-- inject:js -->
   <script src="../../js/off-canvas.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/locale/nl.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js'></script>
+<script src="timePick.js"></script>
   <script src="../../js/misc.js"></script>
   <!-- endinject -->
 </body>
